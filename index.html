@@ -1,71 +1,91 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--tipo de sitio web-->
 <html>
-  <head>
+    <head> <!--cabeza del sitio donde va la info meta utf8 y el titulo-->
         <meta charset="utf-8">
         <title>Portfolio Ivan Schneider</title>
-  </head>
-   <body>
-     <header>
-            </section>
-              <h2 style="color:white; background: grey;">
+    </head>
+    <body><!--cuerpo del sitio donde iran las secciones de la web-->
+          <header> <!--cabezal del cuerpo de la web-->
+              </section> <!--seccion del cuerpo del sitio-->
+                <h2 style="color:white; background: grey;">
                 <img src="logo.png" alt="logo de ischneiderportfolio" width="70">
-                <b>IVAN SCHNEIDER</b>
+                <b><strong>IVAN SCHNEIDER</strong></b>
                     <nav style="color:white; background: black">
-                           Portfolio
-                           Blog
-                           Acerca de Mi
-                           Contacto
-
+                       <a href="index.html" name=home target="_parent">Portfolio</a>
+                       <a href="https://www.blogspot.com" name=blogspot target="_blank">Blog</a>
+                       <a href="aboutme.html" name=aboutme target="_parent">Acerca de Mi</a>
+                       <a href="contact.html" onclick="window.open(this.href,'ventana_contacto','width=800,height=900'); return false;">Contacto</a>
                     </nav>
-               <h2>
+                <h2>
             </section>
-      </header>
-      <aside>
-      </aside>
-      <section>
-          <h1>
-                <img src="background1.jpg" alt="background1" width="1240">
-             <p style="color:white; background: grey;"><b>Bienvenido a mi sitio</b></p>
-             <p style="color:white; background: grey;"><b>Soy Ivan schneider  y puedes pasar a visitar  mi portfolio.</b></p>
-             <p style="color:white; background: grey;"><b>En el encontraras sitios webs diseñados en la escuela
-                coderhouse y tambien trabajos 3d realizados en sktechup.
-               Tambien encontraras diseños de juegos y graficos renderizados</b></p>
-          <h1>
-      <article>
-          <img src="web1.jpg" />
-               <h3>Programador en progreso</h3>
-                   <p style="color:black; background: white;"><small>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-           in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-           anim id est laborum.</small></p>
+          </header>
+          <aside>
+            <!-- espacio para notificaciones emergentes -->
+          </aside>
+          <section>
+                      <h1>
+                          <p style="color:white; background: grey;"><b>Bienvenido a mi sitio</b></p>
+                          <p style="color:white; background: grey;"><b>Soy Ivan schneider  y puedes pasar a visitar  mi portfolio.</b></p>
+                          <p style="color:white; background: grey;"><b>En el encontraras sitios webs diseñados en la escuela
+                          coderhouse y tambien trabajos 3d realizados en sktechup.
+                          Tambien encontraras diseños de juegos y graficos renderizados</b></p>
+                      </h1>
 
-           <img src="web2.jpg" />
-                <h3>Porfolio</h3>
-                  <p style="color:black; background: white;"><small>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-           enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</small></p>
-       </article>
-      </section>
-      <footer>
-            <h4 style="color:white; background: grey;">
-                <p>Copyright 2017 © ischneiderfolio.com • Diseñado por Ivan Schneider</p>
-                <p>Puedes seguirme en <a href="https://www.twitter.com/relihschneider" target="_blank">
-                <b><u>Twitter</u></b></a>,<a href="https://www.youtube.com/relihschneider" target="_blank">, <b><u>Youtube</u></b></a> y <a href="https://www.facebook.com/relihschneider" target="_blank"><b><u>Facebook</u></b></a></p>
-            </h4>
-                <p>
-                    <a href="https://www.github.com/relihschneider" target="_blank"><b>GITHUB</b></a>
-                    <a href="https://www.coderhouse.com" target="_blank"><b>CODERHOUSE</b></a>
-                    POLITICAS DE COPYRIGHT
-                    CONTACTO</p>
-      </footer>
-   </body>
+                <article><!--articulo incluido dentro de la seccion-->
+                  <table class="table">
+                    <tr>
+                      <td>
+                          <h3>Programador en progreso</h3>
+                          <img src="web1.jpg" />
+                          <p style="color:black; background: white;"><small>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.</small></p>
+                      </td>
+                      <td>
+                          <h3>Porfolio</h3>
+                          <img src="web2.jpg" />
+                          <p style="color:black; background: white;"><small>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.</small></p>
+                      </td>
+                      <td>
+                          <h3>Web ropa</h3>
+                          <img src="web3.jpg" />
+                          <p style="color:black; background: white;"><small>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                          anim id est laborum.</small></p>
+                      </td>
+                    </tr>
+                  </table>
+                </article>
+          </section>
+    </body>
+    <footer><!--pie del sitio usado para copyright y datos del creador-->
+                      <h4 style="color:white; background: grey;">
+                          <p>Copyright 2017 © ischneiderfolio.com • Diseñado por Ivan Schneider</p>
+                          <p>Puedes seguirme en <a href="https://www.twitter.com/relihschneider" target="_blank">
+                          <b><u>Twitter</u></b></a>,<a href="https://www.youtube.com/relihschneider" target="_blank">, <b><u>Youtube</u></b></a> y <a href="https://www.facebook.com/relihschneider" target="_blank"><b><u>Facebook</u></b></a></p>
+                        </h4>
+                            <p>
+                                <a href="https://www.github.com/relihschneider" target="_blank"><b>GITHUB</b></a>
+                                <a href="https://www.coderhouse.com" target="_blank"><b>CODERHOUSE</b></a>
+                                <a href="#disclamer" target="_blank"><b>POLITICAS DE COPYRIGHT</b></a>
+                                <a href="contact.html" target="_blank"><b>CONTACTO</b></a>
+                            </p>
+    </footer>
 </html>

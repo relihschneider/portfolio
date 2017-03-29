@@ -3,40 +3,41 @@
     <head> <!--cabeza del sitio donde va la info meta utf8 y el titulo-->
         <meta charset="utf-8">
         <title>Portfolio Ivan Schneider</title>
+        <link rel="stylesheet" href="css/normalize.css"><!---css normalize para que la web funcione en todos los exploradores-->
+        <link rel="stylesheet" href="css/styles.css"><!-- styles aplicado en el head para que cargue el estilo antes del body-->
     </head>
     <body><!--cuerpo del sitio donde iran las secciones de la web-->
-          <header> <!--cabezal del cuerpo de la web-->
-              </section> <!--seccion del cuerpo del sitio-->
-                <h2 style="color:white; background: grey;">
-                <img src="logo.png" alt="logo de ischneiderportfolio" width="70">
-                <b><strong>IVAN SCHNEIDER</strong></b>
-                    <nav style="color:white; background: black">
-                       <a href="index.html" name=home target="_parent">Portfolio</a>
-                       <a href="https://www.blogspot.com" name=blogspot target="_blank">Blog</a>
-                       <a href="aboutme.html" name=aboutme target="_parent">Acerca de Mi</a>
-                       <a href="contact.html" onclick="window.open(this.href,'ventana_contacto','width=800,height=900'); return false;">Contacto</a>
-                    </nav>
-                <h2>
-            </section>
-          </header>
+              <header> <!--cabezal del cuerpo de la web-->
+                <nav>
+                    <div class="logo">
+                    <img src="images/logo.png" alt="logo de ischneiderportfolio" width="70">
+                    </h1>IVAN SCHNEIDER</h1>
+                    </div>
+                    <div class="botones">
+                    <a href="index.html" name=home target="_parent">Portfolio</a>
+                    <a href="https://www.blogspot.com" name=blogspot target="_blank">Blog</a>
+                    <a href="aboutme.html" name=aboutme target="_parent">Acerca de Mi</a>
+                    <a href="contact.html" onclick="window.open(this.href,'ventana_contacto','width=800,height=900'); return false;">Contacto</a>
+                   </div>
+                </nav>
+              </header>
           <aside>
             <!-- espacio para notificaciones emergentes -->
           </aside>
           <section>
-                      <h1>
-                          <p style="color:white; background: grey;"><b>Bienvenido a mi sitio</b></p>
-                          <p style="color:white; background: grey;"><b>Soy Ivan schneider  y puedes pasar a visitar  mi portfolio.</b></p>
-                          <p style="color:white; background: grey;"><b>En el encontraras sitios webs diseñados en la escuela
+                      <h2>
+                          <p><b>Bienvenido a mi sitio</b></p>
+                          <p><b>Soy Ivan schneider  y puedes pasar a visitar  mi portfolio.</b></p>
+                          <p><b>En el encontraras sitios webs diseñados en la escuela
                           coderhouse y tambien trabajos 3d realizados en sktechup.
                           Tambien encontraras diseños de juegos y graficos renderizados</b></p>
-                      </h1>
-
+                      </h2>
                 <article><!--articulo incluido dentro de la seccion-->
                   <table class="table">
                     <tr>
                       <td>
                           <h3>Programador en progreso</h3>
-                          <img src="web1.jpg" />
+                          <img src="images/web1.jpg" />
                           <p style="color:black; background: white;"><small>
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -48,7 +49,7 @@
                       </td>
                       <td>
                           <h3>Porfolio</h3>
-                          <img src="web2.jpg" />
+                          <img src="images/web2.jpg" />
                           <p style="color:black; background: white;"><small>
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -60,7 +61,7 @@
                       </td>
                       <td>
                           <h3>Web ropa</h3>
-                          <img src="web3.jpg" />
+                          <img src="images/web3.jpg" />
                           <p style="color:black; background: white;"><small>
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -76,16 +77,26 @@
           </section>
     </body>
     <footer><!--pie del sitio usado para copyright y datos del creador-->
-                      <h4 style="color:white; background: grey;">
+                      <div class="copyright">
                           <p>Copyright 2017 © ischneiderfolio.com • Diseñado por Ivan Schneider</p>
                           <p>Puedes seguirme en <a href="https://www.twitter.com/relihschneider" target="_blank">
                           <b><u>Twitter</u></b></a>,<a href="https://www.youtube.com/relihschneider" target="_blank">, <b><u>Youtube</u></b></a> y <a href="https://www.facebook.com/relihschneider" target="_blank"><b><u>Facebook</u></b></a></p>
-                        </h4>
-                            <p>
+                        </div>
+                        <div class="bottom">
+                          <br>
                                 <a href="https://www.github.com/relihschneider" target="_blank"><b>GITHUB</b></a>
                                 <a href="https://www.coderhouse.com" target="_blank"><b>CODERHOUSE</b></a>
                                 <a href="#disclamer" target="_blank"><b>POLITICAS DE COPYRIGHT</b></a>
                                 <a href="contact.html" target="_blank"><b>CONTACTO</b></a>
-                            </p>
+                        </div>
+
+                        <table class="botonera" align="">
+                          <tr>
+                            <td> <img src="images/logo.jpg"></td>
+                            <td>TEXTO</td>
+                            <td>boton</td>
+                            <td>boton</td>
+                          </tr>
+                        </table>
     </footer>
 </html>

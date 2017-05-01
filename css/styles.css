@@ -85,7 +85,7 @@ body {
        flex-direction: column;
        order: 1;
        flex: 1;
-       background-image: url("https://cdn.pixabay.com/photo/2015/07/29/16/53/wallpaper-866281_1280.jpg");
+       background: linear-gradient(to right, #996633, #87CEEB); ;
 }
 
 

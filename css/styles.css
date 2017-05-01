@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+nav  {
+  display: inline-block;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            top: 0px;
+            position: fixed;
+            width: 100%;
+            height: 70px;
+
+}
+
+.logo{
+
+   color:white;
+   background-color: rgb(255,0,0,0.9);
+   font-size: 40px;
+   font-family: 'Audiowide', cursive;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   order: 1;
+   flex-grow: 1;
+}
+.nombre {
+     color:white;
+     background-color: #333333;
+     font-size: 40px;
+     font-family: 'Audiowide', cursive;
+     text-align: left;
+     padding: 11px;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     order: 2;
+     flex-grow: 10;
+  }
+
+.botones {
+   background-color: #333333;
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   order: 3;
+   flex-grow: 10;
+   padding-top: 10px;
+
+}
+
+.botones li {
+    display: inline-block; /* para poder poner las palabras separadas*/
+    margin-left: 10px;
+    font-size: 20px;
+    color:white;
+    font-family: 'Audiowide', cursive;
+
+}
+
+
+a {
+  text-decoration:none
+}
+
+body {
+    margin-top: 70px;/* para el cuerpo comienze debajo de la barra superior*/
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+
+.presentacion {
+
+       color:white;
+       font-size: 19px;
+       font-family: 'roman';
+       text-align: left;
+       line-height: 1px;
+       padding: 11px;
+       padding-left: 60px;
+       padding-top: 5px;
+       padding-bottom: 40px;
+       display:flex;
+       flex-direction: column;
+       order: 1;
+       flex: 1;
+       background-image: url("https://cdn.pixabay.com/photo/2015/07/29/16/53/wallpaper-866281_1280.jpg");
+}
+
+
+
+.table  {
+  bottom: 100px;
+  color:grey;
+  font-size: 18px;
+  font-family: 'roman';
+  text-align: left;
+  padding: 40px;
+  border: 2px groove grey;
+  border-color: black;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display:flex;
+  flex-direction: column;
+  order: 1;
+  flex: 1;
+
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+
+}
+.copyright {
+   color:#cccbcb;
+   background-color: #4A4A4A;
+   text-align: center;
+   font-family: 'arial', serif;
+     font-size: 18px;
+}
+
+.bottom {
+   color:white;
+   background-color: #333333;
+   text-align: center;
+   font-size: 14px;
+   font-family: 'arial', black, sans-serif;
+   padding-bottom: 20px;
+   padding-top: 20px;
+
+
+}
